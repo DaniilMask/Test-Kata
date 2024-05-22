@@ -105,7 +105,7 @@ public class Main {
                             System.err.println("Результатом операции могут быть только целые числа!");
                         }
                     }
-                    default -> throw new IllegalArgumentException("Неверный знак операции");
+                    default -> throw new IllegalArgumentException("Неверный  знак операции");
                 }
             } else {
                 throw new IOException("Числа не находятся в диапазоне от 1 до 10!");
